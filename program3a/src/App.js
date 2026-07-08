@@ -22,8 +22,6 @@ class App extends Component {
         <h1>Class Counter</h1> 
  
         <h2>{this.state.count}</h2> 
-Page No - 47                                                                                                                                      FSD – II LAB MANUAL 
- 
         <button onClick={this.increment}> 
           Increment 
         </button> 

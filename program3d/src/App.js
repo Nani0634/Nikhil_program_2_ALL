@@ -8,8 +8,7 @@ return (
 } 
 loggedIn 
 ? <h2>Welcome User</h2> 
-: <h2>Please Login</h2>                                                                                                                                      
-<button 
+: <h2>Please Login</h2><button 
 onClick={() => setLoggedIn(!loggedIn)} 
 > 
 Toggle 
